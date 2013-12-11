@@ -1,0 +1,142 @@
+body{
+margin:0;
+padding-top: 70px;
+padding-bottom: 30px;
+font-family: 'Tinos', serif;
+}
+a, a:hover{
+text-decoration:none;
+}
+.clear{clear:both;}
+/*----------------------------Header Wrapper-------Start------------*/
+.head_wrap, .footer_wrap{
+background:#563d7c;
+color:#fff;
+}
+.navbar-inverse{
+background:#563d7c;
+border-bottom:1px solid #fff;
+}
+.navbar-nav{
+float:right;
+}
+/*----------------------------Header Wrapper-------End------------*/
+/*----------------------------Middle Wrapper-------Start------------*/
+.mid_wrap{
+background:#FFF;
+}
+.theme-showcase > section{
+background:#000;
+color:#fff;
+}
+.video_part{
+min-height:250px;
+background:#000;
+padding:30px;
+box-sizing:border-box;
+margin:0 0 20px 0;
+}
+.v_cont{
+color:#000;
+}
+ul.fl_boxes{
+margin:25px 0;
+float:left;
+}
+ul.fl_boxes li{
+float:left;
+list-style:none;
+box-sizing:border-box;
+background-color:#563d7c;
+margin-top:20px;
+min-height:100px;
+}
+ul.fl_boxes li a{
+display:block;
+}
+.lancer-menu{
+background-color:#563d7c;
+padding:5px 20px;
+margin:20px 0;
+}
+ul.lm-list{
+margin:0; padding:0;
+}
+ul.lm-list li{
+padding: 8px 20px;
+float:left;
+list-style:none;
+}
+ul.lm-list li:first-child{
+padding-left:0px;
+}
+ul.lm-list li a{
+display:block;
+color:#fff;
+font-size:1.2em;
+line-height:1.4em;
+}
+.login-btn{
+background-color:#000;
+padding:8px;
+}
+.login-btn a{
+color:#fff;
+display:block;
+font-size:1.2em;
+text-align:center;
+}
+/*-------lancer_container--------*/
+.lancer_container{
+float:left;
+margin:20px 0;
+}
+.fav_jobs{
+float:left;
+padding:0;
+}
+.favs{
+float:left;
+padding-right:0px;
+padding-left:0px;
+
+}
+.favs > ul.favs-list{
+padding:0;
+margin:30px 0 0 0;
+}
+.favs > ul.favs-list li{
+background-color:#000;
+padding:8px;
+margin:0 0 10px 0;
+list-style:none;
+}
+.favs > ul.favs-list li a{
+color:#fff;
+display:block;
+font-size:1.2em;
+text-align:center;
+}
+.jobs, .l_area{
+float:left;
+border:1px solid #ccc;
+/*j*/ min-height:400px;
+}
+.l_area{
+margin-left:30px;
+}
+.ad_area1{
+float:right;
+border:1px solid #ccc;
+padding:10px;
+/*j*/ min-height:400px;
+
+}
+/*----------------------------Middle Wrapper-------End------------*/
+.footer_wrap{
+border-top:1px solid #fff;
+padding:10px 20px;
+}
+.footer_wrap p{
+padding:0;
+}
