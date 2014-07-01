@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>:: Lancer Dashboard ::</title>
+<script src="js/jquery.js"></script>
+<link rel="stylesheet" href="css/bootstrap.css" >
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="fonts/font-awesome.css" type="text/css" media="screen">
+
+<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery-jvert-tabs-1.1.4.css" />
+<script type="text/javascript" src="js/jquery-jvert-tabs-1.1.4.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#vtabs1").jVertTabs();
+	// add click events for open tab buttons
+	$("input[id^=openTab]").each(function(index){
+		$(this).click(function(){
+			openTab("#vtabs6",index);
+			return false;
+		});
+	});	
+	function openTab(tabId,index){
+		$(tabId).jVertTabs('selected',index);
+	}
+});
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<script src="js/modernizr.custom.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+    <header>
+    	<div class="col-md-12 col-xs-12">
+        <div class="navbar-brand">
+        <h1>Lancer Dashboard</h1>
+       </div>
+   	  <ul class="loginBlk">
+            	<li><label></label></li>
+                <li><label></label></li>
+                <li>Welcome Balaji K S</li>
+                <li><img src="img/profile_img.jpg"></li>
+            </ul>
+      </div>
+    </header>    
+	</div>
+  <div class="row">
+  	<div class="col-xs-12">
+    	<ul class="nav navbar-nav">
+        	<li><a href="#" class="active">Home</a></li>
+        	<li><a href="#">Message</a></li>
+            <li><a href="#">My Project</a></li>
+            <li><a href="#">Tools</a></li>
+        </ul>
+        </div>
+  </div>     
+  <div class="row">
+        <div class="col-md-1 col-xs-12 col-sm-1">
+         <nav id="menu" class="navRes">					
+            <ul>
+                <li class="active">
+                    <a href="#">
+                        <span class="icon">
+                            <i aria-hidden="true" class="glyphicon-filter"></i>
+                        </span>
+                        <span>Filter by</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"> 
+                            <i aria-hidden="true" class="icon-services"></i>
+                        </span>
+                        <!--<span>Services</span>-->
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <i aria-hidden="true" class="icon-portfolio"></i>
+                        </span>
+                        <!--<span>Portfolio</span>-->
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <i aria-hidden="true" class="icon-blog"></i>
+                        </span>
+                        <!--<span>Blog</span>-->
+                    </a>
+                </li>
+        
+            </ul>
+        </nav>
+    </div> 
+        <div class="col-md-4 col-xs-12 col-sm-4">
+        	<div class="contents mt10">
+            <ul class="liveJobs">
+            	<li><h2> <i class="glyphicon-filter"></i>Live Jobs</h2></li>
+                <li>
+                	<ul class="dots">
+                    	<li class="activeTitle">Job A</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </li>
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum velit eget felis luctus vestibulum. Duis volutpat commodo tellus, in tincidunt felis ...</p></li>
+                <li>Posted 2 Minutes before</li>
+                <li>
+                	<ul class="jobsCategory">
+                    	<li><a href="#" class="arrow_box arrow_boxActive">HTML5</a></li>
+                    	<li><a href="#" class="arrow_box">PHP</a></li>
+                        <li><a href="#" class="arrow_box">Wordpress</a></li>
+                        <li><a href="#" class="arrow_box">CSS3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="liveJobs">
+            	<li><h2> <i class="glyphicon-filter"></i>Live Jobs</h2></li>
+                <li>
+                	<ul class="dots">
+                    	<li>Job A</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </li>
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum velit eget felis luctus vestibulum. Duis volutpat commodo tellus, in tincidunt felis ...</p></li>
+                <li>Posted 2 Minutes before</li>
+                <li>
+                	<ul class="jobsCategory">
+                    	<li><a href="#" class="arrow_box arrow_boxActive">HTML5</a></li>
+                    	<li><a href="#" class="arrow_box">PHP</a></li>
+                        <li><a href="#" class="arrow_box">Wordpress</a></li>
+                        <li><a href="#" class="arrow_box">CSS3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="liveJobs">
+            	<li><h2> <i class="glyphicon-filter"></i>Live Jobs</h2></li>
+                <li>
+                	<ul class="dots">
+                    	<li>Job A</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </li>
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum velit eget felis luctus vestibulum. Duis volutpat commodo tellus, in tincidunt felis ...</p></li>
+                <li>Posted 2 Minutes before</li>
+                <li>
+                	<ul class="jobsCategory">
+                    	<li><a href="#" class="arrow_box arrow_boxActive">HTML5</a></li>
+                    	<li><a href="#" class="arrow_box">PHP</a></li>
+                        <li><a href="#" class="arrow_box">Wordpress</a></li>
+                        <li><a href="#" class="arrow_box">CSS3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-12 col-sm-4">
+             <div class="contents mt10">
+            <ul class="liveJobs">
+            	<li><h2> <i class="glyphicon-filter"></i>Discovered Jobs</h2></li>
+                <li>
+                	<ul class="dots">
+                    	<li>Job A</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </li>
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum velit eget felis luctus vestibulum. Duis volutpat commodo tellus, in tincidunt felis ...</p></li>
+                <li>Posted 2 Minutes before</li>
+                <li>
+                	<ul class="jobsCategory">
+                    	<li><a href="#" class="arrow_box arrow_boxActive">HTML5</a></li>
+                    	<li><a href="#" class="arrow_box">PHP</a></li>
+                        <li><a href="#" class="arrow_box">Wordpress</a></li>
+                        <li><a href="#" class="arrow_box">CSS3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="liveJobs">
+            	<li><h2> <i class="glyphicon-filter"></i>Discovered Jobs</h2></li>
+                <li>
+                	<ul class="dots">
+                    	<li>Job A</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </li>
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum velit eget felis luctus vestibulum. Duis volutpat commodo tellus, in tincidunt felis ...</p></li>
+                <li>Posted 2 Minutes before</li>
+                <li>
+                	<ul class="jobsCategory">
+                    	<li><a href="#" class="arrow_box arrow_boxActive">HTML5</a></li>
+                    	<li><a href="#" class="arrow_box">PHP</a></li>
+                        <li><a href="#" class="arrow_box">Wordpress</a></li>
+                        <li><a href="#" class="arrow_box">CSS3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="liveJobs">
+            	<li><h2> <i class="glyphicon-filter"></i>Discovered Jobs</h2></li>
+                <li>
+                	<ul class="dots">
+                    	<li>Job A</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </li>
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum velit eget felis luctus vestibulum. Duis volutpat commodo tellus, in tincidunt felis ...</p></li>
+                <li>Posted 2 Minutes before</li>
+                <li>
+                	<ul class="jobsCategory">
+                    	<li><a href="#" class="arrow_box arrow_boxActive">HTML5</a></li>
+                    	<li><a href="#" class="arrow_box">PHP</a></li>
+                        <li><a href="#" class="arrow_box">Wordpress</a></li>
+                        <li><a href="#" class="arrow_box">CSS3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+        </div>
+        <div class="col-md-3 col-xs-12 col-sm-3">
+            <div class="contents mt10">
+            	<ul class="adBlk">
+                	<li><img src="img/ad.jpg"></li>
+                    <li><img src="img/ad.jpg"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footerBg">
+   	<div class="row">
+    
+        <div class="col-md-8 col-xs-12 col-sm-8">
+    	<ul class="nav navbar-nav">
+       	  <li><a href="#" class="active">Home</a></li>
+        	<li><a href="#">Message</a></li>
+            <li><a href="#">My Project</a></li>
+            <li><a href="#">Tools</a></li>
+        </ul>
+       </div>
+        <div class="col-md-4 col-xs-12 col-sm-4 ">
+         <form class="search" method="post" action="index.html" >
+		 <input type="text" name="q" placeholder="Search..." />
+		 <ul class="results" >
+			 <li><a href="index.html">Search Result #1<br /><span>Description...</span></a></li>
+			 <li><a href="index.html">Search Result #2<br /><span>Description...</span></a></li>
+	 		<li><a href="index.html">Search Result #3<br /><span>Description...</span></a></li>
+         	<li><a href="index.html">Search Result #4</a></li>
+		 </ul>
+	 </form>
+     </div>
+     </div>
+  </div>   
+   	
+</div>
+<script>
+			//  The function to change the class
+			var changeClass = function (r,className1,className2) {
+				var regex = new RegExp("(?:^|\\s+)" + className1 + "(?:\\s+|$)");
+				if( regex.test(r.className) ) {
+					r.className = r.className.replace(regex,' '+className2+' ');
+			    }
+			    else{
+					r.className = r.className.replace(new RegExp("(?:^|\\s+)" + className2 + "(?:\\s+|$)"),' '+className1+' ');
+			    }
+			    return r.className;
+			};	
+
+			//  Creating our button in JS for smaller screens
+			var menuElements = document.getElementById('menu');
+			menuElements.insertAdjacentHTML('afterBegin','<button type="button" id="menutoggle" class="navRestoogle" aria-hidden="true"><i aria-hidden="true" class="icon-menu"> </i> Menu</button>');
+
+			//  Toggle the class on click to show / hide the menu
+			document.getElementById('menutoggle').onclick = function() {
+				changeClass(this, 'navRestoogle active', 'navRestoogle');
+			}
+
+			// http://tympanus.net/codrops/2013/05/08/responsive-retina-ready-menu/comment-page-2/#comment-438918
+			document.onclick = function(e) {
+				var mobileButton = document.getElementById('menutoggle'),
+					buttonStyle =  mobileButton.currentStyle ? mobileButton.currentStyle.display : getComputedStyle(mobileButton, null).display;
+
+				if(buttonStyle === 'block' && e.target !== mobileButton && new RegExp(' ' + 'active' + ' ').test(' ' + mobileButton.className + ' ')) {
+					changeClass(mobileButton, 'navRestoogle active', 'navRestoogle');
+				}
+			}
+		</script>
+
+</body>
+</html>
